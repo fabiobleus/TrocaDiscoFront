@@ -1,0 +1,27 @@
+
+.form-inline {
+    display: flex;
+    gap: 10px;
+    
+}
+
+
+.form-control {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; 
+}
+
+.btn {
+    margin: 10px;
+    
+}
+
+.btn-cadastro {
+    padding-left: 30px;
+}
+
+.btn-entrar {
+    padding-left: 30px;
+}
+
+    
