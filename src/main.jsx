@@ -6,9 +6,11 @@ import Logo from './componentes/logoBusca.jsx'
 import Menu from './componentes/menu.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
   <React.StrictMode>
     <Logo/>
     <Menu/>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
