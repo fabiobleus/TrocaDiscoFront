@@ -1,0 +1,7 @@
+.container-carousel img {
+    width: 1400px;
+    height: 800px;
+    object-fit: cover;
+    background-size: cover;
+   
+}

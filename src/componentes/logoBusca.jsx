@@ -14,7 +14,7 @@ const Logo = () => {
 
                     <nav className="navbar navbar-light bg-light">
                         <form className="form-inline ">
-                            <div className='procuraProdutos' class="col-md-10">
+                            <div className='procuraProdutos col-md-10'>
 
                             <input className="form-control mr-sm-1 "  type="search" placeholder="Procurar Produtos" aria-label="Search" />
                             

@@ -9,17 +9,29 @@ const Menu = () => {
                     <a className="nav-link active" href="#">Pagina inicial</a>
                 </li>
                 <li className="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias</a>
-                    <div className="dropdown-menu">
-                        <a className="dropdown-item" href="">Acao</a>
-                        <a className="dropdown-item" href="#">Outra ação</a>
-                        <a className="dropdown-item" href="#">Algo mais aqui</a>
-                        <div className="dropdown-divider"></div>
+                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categorias
+                    </a>
+                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a className="dropdown-item" href="#">Vinil</a></li>
+                        <li><a className="dropdown-item" href="#">CD</a></li>
+                        <li><a className="dropdown-item" href="#">DVD</a></li>
+                        <li><a className="dropdown-item" href="#">Fita Cassete</a></li>
+                    </ul>
+                </li>
+
+                <li className="nav-item dropdown">
+                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Itens Colecionaveis
+                    </a>
+                    <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a className="dropdown-item" href="#">Revistas</a></li>
+                        <li><a className="dropdown-item" href="#">Livros de musica</a></li>
                         
-                    </div>
+                    </ul>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Outras paginas</a>
+                    <a className="nav-link" href="#">Produtos</a>
                 </li>
 
             </ul>
