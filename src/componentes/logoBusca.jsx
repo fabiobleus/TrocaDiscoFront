@@ -8,7 +8,7 @@ const Logo = () => {
             <div>
                 <nav className="navbar navbar-light bg-light">
                     <a className="navbar-brand" href="#">
-                        <img src="src\assets\logotipo.jpeg" width="100" height="100" alt="logo" />
+                        <img src="src\assets\logotipo.jpeg" width="100" height="100" alt="logo"  />
                     </a>
 
 
