@@ -5,10 +5,10 @@ const Logo = () => {
     return (
 
         <div className="containerLogoBusca">
-            <div>
-                <nav className="navbar navbar-light bg-light">
+            <div className='bg-light'>
+                <nav className="navbar navbar-light bg-light container">
                     <a className="navbar-brand" href="#">
-                        <img src="src\assets\logotipo.jpeg" width="100" height="100" alt="logo"  />
+                        <img src="src\assets\logotipo.jpeg" width="150" height="150" alt="logo"  />
                     </a>
 
 
@@ -16,7 +16,7 @@ const Logo = () => {
                         <form className="form-inline ">
                             <div className='procuraProdutos col-md-10'>
 
-                            <input className="form-control mr-sm-1 "  type="search" placeholder="Procurar Produtos" aria-label="Search" />
+                            <input className="form-control mr-sm-1 " type="search" placeholder="Procurar Produtos" aria-label="Search" />
                             
                             </div>
 
