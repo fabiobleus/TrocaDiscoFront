@@ -1,5 +1,7 @@
 import Header from "../componentes/header"
 
+
+
 const RegisterUser = ( ) => {
     return (
         <div>

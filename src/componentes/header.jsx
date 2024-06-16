@@ -1,13 +1,14 @@
-import Logo from "./logoBusca"
-import Menu from "./menu"
+import Logo from "./header-busca";
+import Menu from "./menu";
+
 
 
 const Header = () => {
     return (
         <>
-            <Logo/>
+            <Logo/> 
             <Menu />
-
+            
         </>
     )
 }

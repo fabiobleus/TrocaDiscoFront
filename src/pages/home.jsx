@@ -1,6 +1,6 @@
 import Carousel from "../componentes/carousel"
 import Header from "../componentes/header"
-import Logo from "../componentes/logoBusca"
+import Logo from "../componentes/header-busca"
 import Menu from "../componentes/menu"
 
 const Home = () => {
