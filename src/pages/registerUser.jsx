@@ -7,8 +7,8 @@ const RegisterUser = () => {
         <div>
             <Header />
             <h1>Cadastro de usuarios</h1>
-            
-            <form class="row g-3">
+
+            <form class="row g-3 ms-1 me-1 ">
 
                 <div className="col">
                     <input type="text" className="form-control" placeholder="Nome" aria-label="First name"/>
