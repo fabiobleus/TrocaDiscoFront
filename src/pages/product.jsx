@@ -15,7 +15,7 @@ const Product = () => {
             <Header />
 
 
-            <div>
+            <div className="w-50 h-50">
                 <img src="\assets\PaginaProdutosBeatles.jpg" alt="" />
             </div>
 
