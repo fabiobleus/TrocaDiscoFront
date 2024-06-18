@@ -14,15 +14,16 @@ const Product = () => {
         <div>
             <Header />
 
-            <h1>Pagina do produto</h1>
 
             <div>
-                <img src="" alt="" />
+                <img src="\assets\PaginaProdutosBeatles.jpg" alt="" />
             </div>
+
             <div className="container">
                 <div className="product-card me-50">
-                    <h1>Celular Xiaomi</h1>
-                    <p>Celular em excelente qualidade de conservação</p>
+
+                    <h1>Disco Beatles 1966</h1>
+                    <p>Disco em excelente qualidade de conservação.</p>
                     <button onClick={handleExchange}>Quero trocar</button>
                 </div>
             </div>
