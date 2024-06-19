@@ -37,7 +37,7 @@ const Logo = () => {
                         </div>
 
                         <div className='btn-entrar'>
-                            <a className="btn btn-primary" href="#" role="button">Entrar</a>
+                            <a className="btn btn-primary" href="/login-user" role="button">Entrar</a>
                         </div>
                     </nav>
                 </nav>

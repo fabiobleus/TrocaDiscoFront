@@ -19,11 +19,12 @@ const Product = () => {
                 <img src="\assets\PaginaProdutosBeatles.jpg" alt="" />
             </div>
 
-            <div className="container">
+            <div className="container h-100">
                 <div className="product-card me-50">
 
-                    <h1>Disco Beatles 1966</h1>
-                    <p>Disco em excelente qualidade de conservação.</p>
+                    <h1>{product.title}</h1>
+                    <p>{product.description}</p>
+                    <p>{product.interest}</p>
                     <button onClick={handleExchange}>Quero trocar</button>
                 </div>
             </div>
