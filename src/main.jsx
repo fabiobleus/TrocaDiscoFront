@@ -11,6 +11,7 @@ import Home from './pages/home.jsx';
 import Category from './pages/category.jsx';
 import RegisterUser from './pages/registerUser.jsx';
 import Product from './pages/product.jsx';
+import LoginUser from './pages/loginUser.jsx';
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/register-user",
     element: <RegisterUser/>
+  },
+  {
+    path: "/login-user",
+    element: <LoginUser/>
   },
   {
     path: "/product/:id",

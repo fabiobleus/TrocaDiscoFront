@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Menu = () => {
@@ -7,7 +6,7 @@ const Menu = () => {
         <div className='nav navbar-light bg-light '>
             <ul className="nav navbar-light bg-light container">
                 <li className="nav-item">
-                    <a className="nav-link active" href="">Pagina inicial</a>
+                    <a className="nav-link active" href="#">Pagina inicial</a>
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -30,9 +29,6 @@ const Menu = () => {
                         <li><a className="dropdown-item" href="#">Livros de musica</a></li>
                         
                     </ul>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">Produtos</a>
                 </li>
 
             </ul>
