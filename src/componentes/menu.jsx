@@ -6,11 +6,7 @@ const Menu = () => {
         <div className='nav navbar-light bg-light '>
             <ul className="nav navbar-light bg-light container">
                 <li className="nav-item">
-<<<<<<< HEAD
                     <a className="nav-link active" href="/">Pagina inicial</a>
-=======
-                    <a className="nav-link active" href="#">Pagina inicial</a>
->>>>>>> 36db5d6b49707f464da388dc2a7c3eb2f9aa6891
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -34,12 +30,9 @@ const Menu = () => {
                         
                     </ul>
                 </li>
-<<<<<<< HEAD
                 <li className="nav-item">
                     <a className="nav-link" href="#">Anuncio</a>
                 </li>
-=======
->>>>>>> 36db5d6b49707f464da388dc2a7c3eb2f9aa6891
 
             </ul>
         </div>
