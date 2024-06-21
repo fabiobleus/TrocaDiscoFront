@@ -7,14 +7,17 @@ const Logo = () => {
         <div className="containerLogoBusca">
             <div className='bg-light'>
                 <nav className="navbar navbar-light bg-light container">
-                    <a className="navbar-brand" href="#">
-                        <img src="\src\assets\logotipo.jpeg " w="150" height="150" alt="logo" />
-                    </a>
+                    <div className='justify-content col-1 '>
+                        <a className="navbar-brand" href="#">
+                            <img src="\src\assets\logotipo.jpeg " className='mw-100'   alt="logo" />
+                        </a>
+
+                    </div>
 
 
                     <nav className="navbar navbar-light bg-light">
 
-                   
+
                         <form className="form-inline ">
                             <div className='procuraProdutos col-md-14'>
 
