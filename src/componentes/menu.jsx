@@ -6,7 +6,7 @@ const Menu = () => {
         <div className='nav navbar-light bg-light '>
             <ul className="nav navbar-light bg-light container">
                 <li className="nav-item">
-                    <a className="nav-link active" href="#">Pagina inicial</a>
+                    <a className="nav-link active" href="/">Pagina inicial</a>
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
