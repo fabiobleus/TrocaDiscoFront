@@ -1,3 +1,4 @@
+import Footer from "../componentes/footer"
 import Header from "../componentes/header"
 
 const RegisterUser = ( ) => {
@@ -5,6 +6,7 @@ const RegisterUser = ( ) => {
         <div>
             <Header />
             <h1>Cadastro de usuarios</h1>
+            
         </div>
     )
 

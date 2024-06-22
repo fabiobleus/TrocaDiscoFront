@@ -1,3 +1,8 @@
+body {
+    background-color: blue;
+    
+}
+
 
 .form-inline {
     display: flex;
@@ -42,4 +47,5 @@
 
 
 
-    
+
+

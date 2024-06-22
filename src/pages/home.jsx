@@ -1,16 +1,21 @@
-import Carousel from "../componentes/carousel"
-import Header from "../componentes/header"
-import Logo from "../componentes/logoBusca"
-import Menu from "../componentes/menu"
+import Carousel from "../componentes/carousel";
+import Header from "../componentes/header";
+import ImgHome from "../componentes/imgHome";
+import Logo from "../componentes/logoBusca";
+import Menu from "../componentes/menu";
+import { Link } from "react-router-dom";
+import "../componentes/imgHome.css";
+import Footer from "../componentes/footer";
 
 const Home = () => {
-    return (
-        <div>
-            <Header />
-            <Carousel />
-        </div>
-    )
+  return (
+    <div>
+      <Header />
+      <Carousel />
+      <ImgHome />
+      <Footer />
+    </div>
+  );
+};
 
-}
-
-export default Home
+export default Home;

@@ -1,3 +1,4 @@
+import Footer from "../componentes/footer"
 import Header from "../componentes/header"
 
 const Product = ( ) => {
@@ -6,6 +7,8 @@ const Product = ( ) => {
             <Header />
             
             <h1>Pagina do produto</h1>
+
+            <Footer/>
         </div>
     )
 

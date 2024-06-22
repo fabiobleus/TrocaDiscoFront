@@ -1,0 +1,37 @@
+body {
+    background-color: #f8f9fa; /* Cinza clarinho */
+  }
+  
+.colorName {
+  color: rgb(98, 98, 99);
+  padding-left: 200px;
+  font-size: 1.4rem;
+}
+
+.colorParagrafo {
+  color: rgb(98, 98, 99);
+  padding-left: 200px;
+  font-size: 1.4rem;
+}
+
+.colorLinks {
+  color: rgb(98, 98, 99);
+  font-size: 1.4rem;
+  
+}
+.colorRedes {
+  color: rgb(98, 98, 98);
+  font-size: 1.4rem;
+  
+}
+.colorLinks2 {
+  color: rgb(98, 98, 98);
+  font-size: 1.3rem;
+  
+}
+.colorRedes2 {
+  color: rgb(98, 98, 98);
+  font-size: 1.3rem;
+
+ 
+}

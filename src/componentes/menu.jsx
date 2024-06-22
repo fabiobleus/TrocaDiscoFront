@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom';
 const Menu = () => {
 
     return (
-        <div className='nav navbar-light bg-light '>
-            <ul className="nav navbar-light bg-light container">
-                <li className="nav-item">
-                    <a className="nav-link active" href="#">Pagina inicial</a>
+
+        <div className='container-fluid bg-primary'>
+        <div className='nav navbar-expand-lg navbar-light bg-primary '>
+            <ul className="nav navbar-expand navbar-prima bg-primary container">
+                <li className="nav-item" >
+                    <a className="nav-link active"  href="#"style={{ color: 'white' }}>Pagina inicial</a>
                 </li>
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" href="#" style={{ color: 'white' }} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Categorias
                     </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -22,7 +24,7 @@ const Menu = () => {
                 </li>
 
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" href="#" style={{ color: 'white' }}id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Itens Colecionaveis
                     </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -32,11 +34,12 @@ const Menu = () => {
                     </ul>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Produtos</a>
+                    <a className="nav-link" href="#"style={{ color: 'white' }}>Produtos</a>
                 </li>
 
             </ul>
         </div>
+         </div>
     );
 };
 

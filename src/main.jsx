@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
+import ReactDOM from 'react-dom';
 import './index.css';
 import Logo from './componentes/logoBusca.jsx';
 import Menu from './componentes/menu.jsx';
@@ -11,6 +10,8 @@ import Home from './pages/home.jsx';
 import Category from './pages/category.jsx';
 import RegisterUser from './pages/registerUser.jsx';
 import Product from './pages/product.jsx';
+
+
 
 const router = createBrowserRouter([
   {
@@ -41,3 +42,5 @@ root.render(
     
   </React.StrictMode>
 )
+
+
