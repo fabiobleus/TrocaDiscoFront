@@ -1,4 +1,5 @@
 import { json, redirect, useNavigate } from "react-router-dom";
+import Footer from "../componentes/footer"
 import Header from "../componentes/header"
 import React, { useState } from 'react';
 

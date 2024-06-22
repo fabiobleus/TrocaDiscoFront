@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import App from './App.jsx';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
@@ -8,6 +9,8 @@ import Category from './pages/category.jsx';
 import RegisterUser from './pages/registerUser.jsx';
 import Product from './pages/product.jsx';
 import LoginUser from './pages/loginUser.jsx';
+
+
 
 const router = createBrowserRouter([
   {
@@ -41,3 +44,5 @@ root.render(
     
   </React.StrictMode>
 )
+
+
