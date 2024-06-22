@@ -34,7 +34,7 @@ function Footer() {
         </div>
       </div>
       
-      <div className="text-center py-3">
+      <div className="text-center  text-body py-3">
         <p>&copy; {new Date().getFullYear()} Troca Disco. Todos os direitos reservados.</p>
       </div>
     </footer>
