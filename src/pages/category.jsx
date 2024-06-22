@@ -13,8 +13,8 @@ const Category = ( ) => {
     return (
         <div>
             <Header />
-            <h1>Pagina de categoria</h1>
-            <p> Categoria {id}</p>
+            <Footer/>
+           
             
         </div>
     )
