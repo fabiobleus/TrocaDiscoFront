@@ -19,11 +19,13 @@ const Logo = () => {
     const handleSearch = (event) => {
         event.preventDefault();
         setSearchTerm(event.target.value);
-        if(setSearchTerm) return;
+        // if(!setSearchTerm) return;
 
-        // const url = `http://localhost:3000/exmplo?q=${searchTerm}`;
+        // const url = `http://localhost:5173/busca?q=${searchTerm}`;
 
         // fetch(url)
+        // .then((response) => response.json())
+        // .then(console.log);
 
     };
 
