@@ -1,8 +1,8 @@
 
 import { useParams } from "react-router-dom";
-import "../assets/ImgDosProdutos/1.png";
-import { Link } from "react-router-dom";
-import "../componentes/imgHome.css";
+// import "../assets/ImgDosProdutos/1.png";
+// import { Link } from "react-router-dom";
+// // import "../componentes/imgHome.css";
 import { useEffect, useState } from "react";
 
 function Category() {
