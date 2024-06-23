@@ -31,7 +31,7 @@ const Menu = () => {
                     </ul>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">Anuncio</a>
+                    <a className="nav-link" href="#">Anuncie</a>
                 </li>
 
             </ul>
