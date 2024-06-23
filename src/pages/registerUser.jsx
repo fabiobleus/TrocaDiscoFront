@@ -138,7 +138,7 @@ const RegisterUser = () => {
                     <input type="text" className="form-control" id="inputZip" />
                 </div>
                 <div className="d-grid" style={{ maxWidth: '150px', margin: '0 auto' }}>
-                    <button type="submit" className="btn btn-primary variant=primary">Cadastrar</button>
+                    <button type="submit" className="btn btn-primary variant=primary" >Cadastrar</button>
                 </div>
             </form>
         </div>

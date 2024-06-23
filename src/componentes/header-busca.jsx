@@ -1,6 +1,30 @@
 import './logoBusca.css'
+import React,{useState} from 'react';
 
 const Logo = () => {
+    
+        // Estado inicial com a lista de usuários
+        const [users] = useState([
+          { id: 1, name: 'Alice' },
+          { id: 2, name: 'Bob' },
+          { id: 3, name: 'Charlie' },
+          { id: 4, name: 'David' },
+          { id: 5, name: 'Eve' }
+        ]);
+    
+    // Estado para o termo de busca
+    const [searchTerm, setSearchTerm] = useState('');
+
+    // Função para atualizar o termo de busca
+    const handleSearch = (event) => {
+        setSearchTerm(event.target.value);
+    };
+
+    // Filtra os usuários com base no termo de busca
+    const filteredUsers = users.filter(user =>
+        user.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
 
     return (
 
@@ -9,7 +33,7 @@ const Logo = () => {
                 <nav className="navbar navbar-light bg-light container">
                     <div className='justify-content col-1 '>
                         <a className="navbar-brand" href="#">
-                            <img src="\src\assets\logotipo.jpeg " className='mw-100'   alt="logo" />
+                            <img src="\src\assets\logotipo.jpeg " className='mw-100' alt="logo" />
                         </a>
 
                     </div>
@@ -21,7 +45,12 @@ const Logo = () => {
                         <form className="form-inline ">
                             <div className='procuraProdutos col-md-14'>
 
-                                <input className="form-control mr-sm-1 " type="search" placeholder="Procurar Produtos" aria-label="Search" />
+                                <input className="form-control mr-sm-1 " type="search" placeholder="Procurar Produtos" aria-label="Search" value={searchTerm} onChange={handleSearch} />
+                                <ul>
+                                    {filteredUsers.map(user => (
+                                        <li key={user.id}>{user.name}</li>
+                                    ))}
+                                </ul>
 
                             </div>
 
