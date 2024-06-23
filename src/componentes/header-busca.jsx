@@ -17,7 +17,14 @@ const Logo = () => {
 
     // Função para atualizar o termo de busca
     const handleSearch = (event) => {
+        event.preventDefault();
         setSearchTerm(event.target.value);
+        if(setSearchTerm) return;
+
+        // const url = `http://localhost:3000/exmplo?q=${searchTerm}`;
+
+        // fetch(url)
+
     };
 
     // Filtra os usuários com base no termo de busca
