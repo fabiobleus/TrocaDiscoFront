@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import "../assets/ImgDosProdutos/1.jpg";
 import { Link } from "react-router-dom";
 import "../componentes/imgHome.css";
 import React, { useEffect, useState } from "react";
@@ -19,7 +18,7 @@ function ImgHome() {
       src: "src/assets/ImgDosProdutos/2.jpg",
       name: "Revista AutoMobile",
     },
-    { id: 3, src: "src/assets/ImgDosProdutos/3.png", name: "CD anos 80" },
+    { id: 3, src: "src/assets/ImgDosProdutos/3.jpg", name: "CD anos 80" },
     {
       id: 4,
       src: "src/assets/ImgDosProdutos/4.jpg",
@@ -27,7 +26,7 @@ function ImgHome() {
     },
     {
       id: 5,
-      src: "src/assets/ImgDosProdutos/5.png",
+      src: "src/assets/ImgDosProdutos/5.jpg",
       name: "DVDs do Legião Urbana",
     },
     {
@@ -38,7 +37,7 @@ function ImgHome() {
     { id: 7, src: "src/assets/ImgDosProdutos/7.jpg", name: "Livro de música" },
     {
       id: 8,
-      src: "src/assets/ImgDosProdutos/8.png",
+      src: "src/assets/ImgDosProdutos/8.jpg",
       name: "Disco de vinil do Elvis Presley",
     },
     {
@@ -48,17 +47,17 @@ function ImgHome() {
     },
     {
       id: 10,
-      src: "src/assets/ImgDosProdutos/10.png",
+      src: "src/assets/ImgDosProdutos/10.jpg",
       name: "Revistas de carros antigos",
     },
     {
       id: 11,
-      src: "src/assets/ImgDosProdutos/11.png",
+      src: "src/assets/ImgDosProdutos/11.jpg",
       name: "Fita cassete do Guns N' Roses",
     },
     {
       id: 12,
-      src: "src/assets/ImgDosProdutos/12.png",
+      src: "src/assets/ImgDosProdutos/12.jpg",
       name: "Disco de vinil do Chitãozinho e Xororó",
     },
   ];
