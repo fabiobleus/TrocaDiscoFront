@@ -19,15 +19,18 @@ const Logo = () => {
     const handleSearch = (event) => {
         event.preventDefault();
         setSearchTerm(event.target.value);
-        // if(!setSearchTerm) return;
+        
+        if(!setSearchTerm) return;
 
-        // const url = `http://localhost:5173/busca?q=${searchTerm}`;
+        const url = `http://localhost:5173/busca?q=${searchTerm}`;
 
-        // fetch(url)
-        // .then((response) => response.json())
-        // .then(console.log);
+        fetch(url)
+        .then((response) => response.json())
+        .then((searchTerm) => setSearchTerm(searchTerm));
 
     };
+
+    console.log('search:',searchTerm);
 
     // Filtra os usuários com base no termo de busca
     const filteredUsers = users.filter(user =>
