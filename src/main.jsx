@@ -1,17 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Logo from './componentes/logoBusca.jsx';
-import Menu from './componentes/menu.jsx';
-import Carousel from './componentes/carousel.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './pages/home.jsx';
 import Category from './pages/category.jsx';
 import RegisterUser from './pages/registerUser.jsx';
 import Product from './pages/product.jsx';
-import App from './App.jsx';
-
+import LoginUser from './pages/loginUser.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,10 +23,13 @@ const router = createBrowserRouter([
     element: <RegisterUser/>
   },
   {
-    path: "/product/:id",
+    path: "/login-user",
+    element: <LoginUser/>
+  },
+  {
+    path: "/product",
     element: <Product/>
   }
-
 
 ])
 
@@ -42,5 +41,3 @@ root.render(
     
   </React.StrictMode>
 )
-
-

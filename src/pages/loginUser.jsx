@@ -1,4 +1,5 @@
 import Header from "../componentes/header"
+import Footer from "../componentes/footer"
 import "/src/index.css"
 import React, { useState } from 'react';
 
@@ -44,14 +45,11 @@ const LoginUser = () => {
     };
 
 
-
-
-
     return (
     <div className="min-height-500 d-flex flex-column align-items-center justify-content-center" style={{ minHeight: '50vh' }}>
         <Header />
-        <div style={{ height: '2rem' }}> 
-
+        <div style={{ height: '2rem' }}>
+             
         </div>
     <form className="form-container" style={{ maxWidth: '400px', width: '100%' }} onSubmit={handleSubmit}>
         <div className="mb-3">
@@ -69,8 +67,8 @@ const LoginUser = () => {
         </div>
     </form>
         </div>
+        
     );
 }
 
 export default LoginUser;
-

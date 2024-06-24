@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 import Header from "../componentes/header"
 import Footer from "../componentes/footer"
 
+
 const Category = ( ) => {
     const { id } = useParams()
 
@@ -12,9 +13,8 @@ const Category = ( ) => {
 
     return (
         <div>
-            <Header />
-            <Footer/>
-           
+            <Header/>
+            <Footer/>           
             
         </div>
     )

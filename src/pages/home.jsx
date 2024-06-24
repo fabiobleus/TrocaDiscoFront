@@ -1,7 +1,7 @@
 import Carousel from "../componentes/carousel";
 import Header from "../componentes/header";
 import ImgHome from "../componentes/imgHome";
-import Logo from "../componentes/logoBusca";
+import Logo from "../componentes/logoBusca.jsx";
 import Menu from "../componentes/menu";
 import { Link } from "react-router-dom";
 import "../componentes/imgHome.css";

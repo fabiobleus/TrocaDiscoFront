@@ -5,8 +5,8 @@ body {
 
 
 .custom-navbar-bg {
-    background-color: #007bff; /* Example: Blue background */
-}
+    background-color: blue; /* Example: Blue background*/
+    }
 
 
 .form-inline {
@@ -19,7 +19,7 @@ body {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center; 
-    margin-right: 300px;    
+    margin-right: 400px;    
     
 }
 
@@ -39,7 +39,7 @@ body {
 
 .buttonBuscar {
     
-    margin-left: -20px;
+    /* margin-left: -20px; */
     font-family: Arial, Helvetica, sans-serif;
     
 }
@@ -47,8 +47,3 @@ body {
 .procuraProdutos {
     padding: 0px 10px ;
 }
-
-
-
-
-

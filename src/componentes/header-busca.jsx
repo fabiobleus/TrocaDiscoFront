@@ -3,6 +3,7 @@ import './logoBusca.css'
 const Logo = () => {
 
     return (
+        												
 
         <div className="containerLogoBusca">
             <div className='bg-light'>
@@ -12,7 +13,7 @@ const Logo = () => {
                         </a>
     
                         <div className="navbar-content">
-                            <form className="form-inline">
+                            <form className="form-inline ml-auto">
                                 <div className="procuraProdutos">
                                     <input className="form-control mr-sm-1" type="search" placeholder="Procurar Produtos" aria-label="Search" />
                                 </div>

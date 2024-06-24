@@ -1,4 +1,5 @@
-import Logo from "./header-busca";
+// import Logo from "./header-busca.jsx";
+import Logo from "./logoBusca.jsx";
 import Menu from "./menu";
 
 

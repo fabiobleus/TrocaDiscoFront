@@ -8,7 +8,7 @@ const Logo = () => {
       <nav className="navbar navbar-expand-lg navbar-primary">
         <div className="container bg-primary">
           <a className="navbar-brand" href="#">
-            <img src="src/assets/logotipo.png" width="200" height="150" alt="logo" />
+            <img src="src/assets/logotipo.png" width="172" height="172" alt="logo" />
           </a>
 
           <form className="form-inline ml-auto">
@@ -20,8 +20,8 @@ const Logo = () => {
           </form>
 
           <div className='ml-auto'>
-            <a className="btn btn-primary ml-2" href="#" role="button">Cadastrar-se</a>
-            <a className="btn btn-primary ml-2" href="#" role="button">Entrar</a>
+            <a className="btn btn-primary ml-2" href="/register-user" role="button">Cadastrar-se</a>
+            <a className="btn btn-primary ml-2" href="/login-user" role="button">Entrar</a>
           </div>
         </div>
       </nav>

@@ -33,7 +33,7 @@ const RegisterUser = () => {
             const options = {
                 method: 'POST',
                 headers: {
-                    'Content-Type': 'application/JSON',
+                    'Content-Type': 'application/JSON'
                 },
                 body: bodyJson
             };

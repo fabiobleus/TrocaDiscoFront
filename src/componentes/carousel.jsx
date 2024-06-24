@@ -18,7 +18,7 @@ const Carousel = () => {
                         <div className="container-carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img src="\src\assets\bannerprodutos.jfif" className="d-block " alt="..." />
+                                    <img src="\src\assets\banner 1.png" className="d-block " alt="..." />
                                 </div>
                                 <div className="carousel-item">
                                     <img src="\src\assets\banner 2.png" className="d-block " alt="..." />

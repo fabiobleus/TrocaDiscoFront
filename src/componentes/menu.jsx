@@ -8,7 +8,7 @@ const Menu = () => {
         <div className='nav navbar-expand-lg navbar-light bg-primary '>
             <ul className="nav navbar-expand navbar-prima bg-primary container">
                 <li className="nav-item" >
-                    <a className="nav-link active"  href="#"style={{ color: 'white' }}>Pagina inicial</a>
+                    <a className="nav-link active"  href="/"style={{ color: 'white' }}>Pagina inicial</a>
                 </li>
                 <li className="nav-item dropdown">
                     <a className="nav-link dropdown-toggle" href="#" style={{ color: 'white' }} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -31,6 +31,9 @@ const Menu = () => {
                         <li><a className="dropdown-item" href="#">Livros de musica</a></li>
                         
                     </ul>
+                </li>
+                <li className="nav-item">
+                    <a className="nav-link" href="./product" style={{ color: 'white' }}>Anuncie</a>
                 </li>
 
             </ul>

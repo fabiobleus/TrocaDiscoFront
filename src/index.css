@@ -1,3 +1,7 @@
+@media (min-widht: 769px) and (max-width: 1024px){
+	/* Estilizações CSS */
+}
+
 .min-height-500 {
     min-height: 800px;
 }
