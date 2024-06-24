@@ -98,6 +98,7 @@ const RegisterUser = () => {
                     <button type="submit" className="btn btn-primary">Cadastrar</button>
                 </div>
             </form>
+            
         </div>
     )
 }

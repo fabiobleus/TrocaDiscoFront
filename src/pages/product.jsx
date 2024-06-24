@@ -1,6 +1,6 @@
 import Footer from "../componentes/footer"
 import Header from "../componentes/header";
-import "./product.css";
+import "/src/index.css";
 
 const ProductPage = () => {
     return (
@@ -44,6 +44,7 @@ const ProductPage = () => {
             <button type="submit" className="btn btn-primary">Cadastrar Anúncio</button>
           </div>
         </form>
+        <Footer />
       </div>
     );
   }

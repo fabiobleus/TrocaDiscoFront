@@ -8,6 +8,7 @@ import Category from './pages/category.jsx';
 import RegisterUser from './pages/registerUser.jsx';
 import Product from './pages/product.jsx';
 import LoginUser from './pages/loginUser.jsx';
+import ProfilePage from './pages/profilePage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -29,7 +30,12 @@ const router = createBrowserRouter([
   {
     path: "/product",
     element: <Product/>
-  }
+  },
+  {
+    path: "/profile-page",
+    element: <ProfilePage/>
+  },
+
 
 ])
 

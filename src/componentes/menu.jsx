@@ -11,7 +11,7 @@ const Menu = () => {
                     <a className="nav-link active"  href="/"style={{ color: 'white' }}>Pagina inicial</a>
                 </li>
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" style={{ color: 'white' }} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" href=".#" style={{ color: 'white' }} id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Categorias
                     </a>
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
